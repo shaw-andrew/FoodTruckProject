@@ -5,4 +5,4 @@
 ## What I learned
 
 ## Technologies Used
-	Git, Atom, Eclipse, Java# FoodTruckProject
+	Git, Atom, Eclipse, Java
