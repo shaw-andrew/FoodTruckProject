@@ -5,7 +5,7 @@ public class FoodTruck {
 	private String truckName = "";
 	private String foodType = "";
 	private double rating = 0.0;
-	static int counter = 0;
+	private static int counter = 0;
 
 	public FoodTruck(int truckId, String truckName, String foodType, double rating) {
 		this.truckId = truckId;
@@ -55,7 +55,7 @@ public class FoodTruck {
 	}
 
 	public String toString() {
-		return "Truck ID: " + truckId + ", Truck Name: " + truckName + ", Food Type: " + foodType + ", rating: "
+		return "Truck ID: " + truckId + ", Truck Name: " + truckName + ", Food Type: " + foodType + ", Rating: "
 				+ rating;
 	}
 
@@ -64,9 +64,5 @@ public class FoodTruck {
 		System.out.println(truckData);
 	}
 
-	// constructors
-	// truck id static
-	// setters and getters
-	// tostring
-	// singluar food truck stuff here
+	
 }
